@@ -12,6 +12,6 @@ namespace SpectatorList
         public bool IgnoreOverwatch { get; set; } = true;
 
         [Description("Whether or not Northwood Staff should be Ignored. (Global Moderators will ALWAYS be Ignored)")]
-        public bool IgnoreNorthwood { get; set; } = false;
+        public bool IgnoreNorthwood { get; set; } = true;
     }
 }
